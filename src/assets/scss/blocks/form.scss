@@ -1,0 +1,68 @@
+.form {
+    &--auth {
+        max-width: 28rem;
+        margin: 0 auto;
+    }
+}
+.form_group {
+    margin-bottom: 1.5rem;
+    position: relative;
+    &--md {
+        margin-bottom: 2.5rem;
+    }
+}
+.form_control {
+    display: block;
+    width: 100%;
+    padding: .5rem 0 .75rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3f3f3f;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: $white;
+    &:focus + .form_line {
+        width: 100%;
+    }
+    &::placeholder {
+        color: rgba($white, .2);
+    }
+    &--textarea {
+        height: 30px;
+        overflow: hidden;
+        resize: none; /*  чтобы убрять изменение размера блока в уголке */
+    }
+}
+.form_line {
+    width: 0;
+    height: 1px;
+    background-color: $blue;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: width .4s linear;
+}
+.form_footer {
+    &--center {
+        text-align: center;
+    }
+}
+.form_footer-list {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    li {
+        margin: 0 .5rem;
+    }
+    a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

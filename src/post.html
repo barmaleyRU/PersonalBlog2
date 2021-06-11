@@ -1,0 +1,100 @@
+---
+layout: default
+title: Post
+---
+
+<article class="post">
+    <div class="post_actions">
+        <a href="index.html">Вернуться назад</a>
+        <a class="share" data-modal="share-modal" href="#">Поделиться <img class="post_actions-icon" src="assets/images/share.svg" alt="share"></a>
+    </div>
+    <div class="post_header post_header--open">
+        <h1 class="post_title post_title--open">
+            Как я сходил на FrontEnd Conf 2021
+        </h1>
+        <ul class="post_data">
+            <li class="post_data-item">
+                <time datetime="2020-06-21">21.06.2020</time>
+            </li>
+            <li class="post_data-item">
+                <a href="#">Создание сайтов</a>
+            </li>
+        </ul>
+    </div>
+    <div class="post_content">
+        <div class="post_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+            <p>
+                <img src="assets/images/post-text-img.jpg" alt="alt">
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+        </div>
+        <div class="related">
+            <h3 class="post_subtitle">Интересно почитать</h3>
+            <ul class="related_list">
+                <li class="related_list-item">
+                    <h4 class="related_list-title">
+                        <a href="#">Как я сходил на FrontEnd Conf 2021</a>
+                    </h4>
+                    <time class="related_list-date" datetime="2020-06-21">21.06.2020</time>
+                </li>
+                <li class="related_list-item">
+                    <h4 class="related_list-title">
+                        <a href="#">Купил новый ноутбук за 150 000 руб</a>
+                    </h4>
+                    <time class="related_list-date" datetime="2020-06-21">21.06.2020</time>
+                </li>
+                <li class="related_list-item">
+                    <h4 class="related_list-title">
+                        <a href="#">Как писать код быстро и  ...</a>
+                    </h4>
+                    <time class="related_list-date" datetime="2020-06-21">21.06.2020</time>
+                </li>
+                <li class="related_list-item">
+                    <h4 class="related_list-title">
+                        <a href="#">Купил новый ноутбук за 150 000 руб</a>
+                    </h4>
+                    <time class="related_list-date" datetime="2020-06-21">21.06.2020</time>
+                </li>
+            </ul>
+        </div>
+        
+        <h3 class="post_subtitle">Обсуждения</h3>
+        <form class="form" action="#" method="post">
+            <div class="form_group">
+                <textarea class="form_control form_control--textarea" name="comments_text" placeholder="Текст комментария" data-autoresize></textarea>
+                <span class="form_line"></span>
+            </div>
+            <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+        </form>
+        <ul class="comments">
+            <li class="comments_item">
+                <div class="comments_header">
+                    <img class="comments_avatar" src="assets/images/profile_img.jpg" alt="alt">
+                    <div class="comments_author">
+                        <div class="comments_name">Артем Барляев</div>
+                        <time class="comments_pubdate" datetime="2020-12-21">1 неделю назад</time>
+                    </div>
+                </div>
+                <div class="comments_text">
+                    Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+                <button class="comments_reply" type="button">Ответить</button>
+                <ul class="comments">
+                    <li class="comments_item">
+                        <div class="comments_header">
+                            <img class="comments_avatar" src="assets/images/profile_img.jpg" alt="alt">
+                            <div class="comments_author">
+                                <div class="comments_name">Артем Барляев</div>
+                                <time class="comments_pubdate" datetime="2020-12-21">1 неделю назад</time>
+                            </div>
+                        </div>
+                        <div class="comments_text">
+                            Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+                        <button class="comments_reply" type="button">Ответить</button>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</article>

@@ -1,0 +1,30 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    @include breakpoint($tablet-bp) {
+        margin-top: 3rem;
+    }
+}
+.pagination_item {
+    margin: 0 .5rem;
+}
+.pagination_link {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background-color: #0d0d0d;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    color: $white;
+    text-decoration: none;
+    transition: background-color .2s linear;
+    &:hover {
+        background-color: lighten(#0d0d0d, 8%);
+    }
+    &.active {
+        background-color: $blue;
+    }
+}
